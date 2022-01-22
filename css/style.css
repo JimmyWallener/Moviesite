@@ -1,7 +1,8 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
 .grid-container {
@@ -72,6 +73,41 @@ main .index-movies .article-movie {
     border: 1px solid red;
     margin: 1rem 2rem 1rem 2rem;
 }
+
+
+
+
+.information-main {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    padding: 4rem 10% 1rem 10%;
+}
+
+.information-main p {
+    padding: 4rem 0 1rem 0;
+}
+
+.information-main .information-about {
+    grid-row: 1;
+}
+
+.information-main .information-find-us {
+    grid-row: 2;
+    margin: 4rem 0 0 0;
+}
+
+.information-main .information-other {
+    grid-row: 3;
+    margin: 4rem 0 0 0;
+}
+
+.information-main .information-other p{
+    padding: 1rem 0 0 0;
+}
+
+
+
+
 
 footer {
     grid-row: 3;
