@@ -7,7 +7,8 @@
 
 .grid-container {
     display: grid;
-    grid-template: auto auto auto / auto;
+    grid-template: 4rem auto 4rem / auto;
+    height: 100vh;
 }
 
 header {
@@ -111,4 +112,8 @@ main .index-movies .article-movie {
 
 footer {
     grid-row: 3;
+    background: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
