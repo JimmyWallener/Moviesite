@@ -46,6 +46,10 @@ footer {
   margin-top: 5rem;
   margin-bottom: 2rem;
 }
+
+.movie > p {
+  margin: 1rem;
+}
 .poster {
   display: flex;
   justify-content: center;
