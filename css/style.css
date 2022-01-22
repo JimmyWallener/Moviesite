@@ -5,7 +5,7 @@
 
 .grid-container {
     display: grid;
-    grid-template: auto auto auto / auto;
+    grid-template: 4rem auto auto / auto;
 }
 
 header {
@@ -16,6 +16,33 @@ header {
 
 main {
     grid-row: 2;
+    display: grid;
+    grid-template: auto auto / auto;
+}
+
+main .index-welcome {
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .index-welcome h1 {
+    padding: 3rem 0 3rem 0;
+}
+
+main .index-movies {
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .index-movies .article-movie {
+    height: 20rem;
+    width: 12rem;
+    border: 1px solid red;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 footer {
