@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: auto auto auto / auto;
+}
+
+header {
+    grid-row: 1;
+    display: grid;
+    grid-template: auto / auto auto auto;
+}
+
+main {
+    grid-row: 2;
+}
+
+footer {
+    grid-row: 3;
+}
